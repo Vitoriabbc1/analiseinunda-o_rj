@@ -81,7 +81,29 @@ Essa análise espacial permite o direcionamento assertivo de recursos públicos 
 * **O Gargalo Crítico de Bangu:** O bairro de Bangu desponta isolado como a região de maior vulnerabilidade imediata, concentrando impressionantes **18,97 km** de cursos d'água em zonas de Alta Suscetibilidade. Esse número reflete a severa pressão hidrológica sobre a bacia local, agravada por fatores antropogênicos e microclimáticos da Zona Oeste.
 * **Vulnerabilidade Concentrada na Macrodrenagem:** Distritos como **Cosme Velho** (3,15 km), **Andaraí** (3,05 km), **Caju** (2,53 km) e **Gericinó** (2,43 km) apresentam uma característica crítica: praticamente toda a sua extensão de rede hidrográfica mapeada corre sob cenários de Média a Alta Suscetibilidade, possuindo margem quase nula de escoamento seguro em eventos climáticos extremos.
 * **A Complexidade de Santa Cruz e Jacarepaguá:** Embora possuam extensões gigantescas classificadas em Baixa Suscetibilidade devido às suas vastas planícies costeiras e bacias (Santa Cruz com 185,36 km e Jacarepaguá com 107,95 km), ambos ainda retêm volumes significativos de rede sob risco direto, exigindo monitoramento contínuo de suas calhas amortecedoras.
-  
+
+
+### 🕳️ Análise de Engenharia Urbana: Canais Cobertos vs. Céu Aberto
+
+Esta análise investiga o impacto do modelo tradicional de engenharia cinza (tamponamento e fechamento de cursos d'água em galerias subterrâneas) frente às manchas de inundação. O objetivo foi quantificar se a ocultação da rede de drenagem mitigou ou concentrou os fatores de risco socioambiental no município.
+
+| Condição do Curso d'Água | Alta Suscetibilidade (km) | Média Suscetibilidade (km) | Baixa Suscetibilidade (km) | Extensão Total (km) |
+| :--- | :---: | :---: | :---: | :---: |
+| **Céu Aberto** | 234,78 | 441,58 | 1040,61 | **1716,97** |
+| **Subterrâneo / Coberto** | 30,19 | 49,71 | 35,68 | **115,58** |
+
+---
+
+## 📈 Visualização do Impacto da Canalização
+
+![Trechos Cobertos vs Céu Aberto](assets/trechos.png)
+
+---
+
+## 🔬 Insights de Infraestrutura Urbana
+
+* **Gargalo Subterrâneo Invisível:** Dos 115,58 km de malha de drenagem que foram sepultados e convertidos em galerias subterrâneas artificiais, **69,12% (79,90 km)** operam sob zonas de Média e Alta Suscetibilidade à inundação. Isso aponta que a política histórica de cobrir rios para a passagem de vias não resolveu a dinâmica hidrológica regional e criou pontos críticos de pressão hidráulica invisível sob o asfalto.
+* **Resiliência Natural Espacial:** A rede a céu aberto, embora concentre o maior valor absoluto em quilômetros em risco Alto (234,78 km), mantém a maior parte de sua extensão linear (60,60%) em zonas de Baixa Suscetibilidade. Isso reforça o potencial de aplicar Soluções Baseadas na Natureza (SBN) ao longo dessas calhas abertas para criar zonas de amortecimento de cheias antes que a água atinja o ambiente construído.
 ## Autor
 * **Vitória B. B. de Carvalho** - Bióloga e Analista Ambiental 
 * [LinkedIn](https://www.linkedin.com/in/vitoria-b-b-de-carvalho/)
