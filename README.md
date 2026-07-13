@@ -30,7 +30,7 @@ A tabela abaixo sintetiza a extensão linear (em quilômetros) e a distribuiçã
 
 ## 📈 Visualização dos Dados
 
-![Extensão da Rede de Drenagem por Suscetibilidade](grafico_suscetibilidade_limpo.png)
+![grafico_suscetibilidade_limpo.png)
 *(Substitua ou verifique se o nome do arquivo da imagem do gráfico no seu repositório bate exatamente com este nome para aparecer aqui)*
 
 ---
