@@ -2,9 +2,17 @@
 
 
 ## Sobre o Projeto
-Este projeto apresenta uma abordagem de inteligência geográfica e análise de dados aplicada à gestão de riscos de desastres hidrológicos no município do Rio de Janeiro. A metodologia consistiu no cruzamento espacial entre a camada shapefile da **Rede Hidrográfica Municipal** e a camada matricial de **Suscetibilidade a Deslizamentos - (Fundação Geo-Rio)** disponibilizada para visualização portal SMAC MAPAS da Prefeitura do Rio de Janeiro.  
+Apresentação de uma abordagem integrada de análise espacial e mitigação de desastres climáticos aplicada à gestão de riscos hidrológicos no município do Rio de Janeiro. 
 
-O objetivo principal foi quantificar a vulnerabilidade física da infraestrutura de macrodrenagem urbana, categorizando o nível de exposição ao risco (Alta, Média e Baixa Suscetibilidade) para cada tipologia de curso d'água (Rios, Canais, Arroios, Valas e Valões).
+A metodologia consistiu no cruzamento espacial de camadas ve (via Sistemas de Informação Geográfica - SIG) entre a camada vetorial da **Rede Hidrográfica Municipal** [1](https://siurb.rio/portal/apps/experiencebuilder/experience/?id=69d735eb4b5c4cf781fe32d5153f8c2e) e o mapeamento de **Suscetibilidade à Inundação**, [2](https://siurb.rio/portal/apps/experiencebuilder/experience/?id=69d735eb4b5c4cf781fe32d5153f8c2e) desenvolvido pela **CPRM (Serviço Geológico do Brasil)** e disponibilizados no portal SMAC MAPAS.[3](https://siurb.rio/portal/apps/experiencebuilder/experience/?id=69d735eb4b5c4cf781fe32d5153f8c2e)
+
+O objetivo principal foi quantificar a vulnerabilidade física da infraestrutura de macrodrenagem urbana frente a cenários de risco hidrológico, estruturando a investigação em três análises complementares:
+
+1. **Vulnerabilidade por Tipologia Hidrográfica:** Quantificação do nível de exposição ao risco (Alta, Média e Baixa Suscetibilidade) para cada tipologia de curso d'água (Rios, Canais, Arroios, Valas e Valões).
+2. **Análise de Vulnerabilidade Local (Top 10 Bairros Críticos):** Identificação e espacialização das regiões administrativas com maior extensão linear de drenagem sob criticidade máxima (Alta Suscetibilidade), isolando gargalos territoriais prioritários para investimento público.
+3. **Impacto da Canalização (Canais Cobertos vs. Céu Aberto):** Diagnóstico de engenharia urbana focado na comparação de resiliência hidráulica entre trechos em calha natural e galerias subterrâneas artificiais (tamponadas).
+
+
 
 *Infraestrutura de Dados Espaciais (IDE)* Devido à ausência de botões de download direto para as bases vetoriais nos portais de origem, foi realizada a extração das URLs dos servidores de mapas oficiais através da análise de requisições de rede. As camadas foram consumidas via conexão nativa WMS/WFS diretamente no ambiente SIG (QGIS), garantindo a integridade e a procedência oficial dos dados consultados.
 
@@ -12,14 +20,14 @@ O objetivo principal foi quantificar a vulnerabilidade física da infraestrutura
 
 ## Tecnologias e Ferramentas Utilizadas
 * **QGIS:** Processamento digital de dados vetoriais, operações de interseção espacial e refinamento da base cartográfica.
-* **Python (Google Colab):** Tratamento, limpeza de dados textuais estruturados e engenharia de recursos (*feature engineering*) com `Pandas`.
-* **Matplotlib & Seaborn:** Geração de gráficos estatísticos avançados e estilização de matrizes de criticidade.
+* **Python (Google Colab):** Tratamento, limpeza de dados textuais estruturados e criaçao de novas variaáveis analiticas com `Pandas`.
+* **Matplotlib & Seaborn:** Geração de gráficos estatísticos e estilização de matrizes de criticidade.
 
 ---
 
-## Matriz de Criticidade (Resultados Quantitativos)
+## Matriz de Criticidade
 
-A tabela abaixo sintetiza a extensão linear (em quilômetros) e a distribuição percentual de cada tipologia de drenagem frente às classes de suscetibilidade mapeadas[cite: 1, 2]:
+A tabela abaixo sintetiza a extensão linear (em quilômetros) e a distribuição percentual de cada tipologia de drenagem frente às classes de suscetibilidade mapeadas:
 
 | Tipologia do Curso d'Água | Alta Suscetibilidade (km) | Alta (%) | Média Suscetibilidade (km) | Média (%) | Baixa Suscetibilidade (km) | Baixa (%) | Extensão Total (km) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -39,9 +47,9 @@ A tabela abaixo sintetiza a extensão linear (em quilômetros) e a distribuiçã
 
 ## Principais Insights Técnicos
 
-* **Pressão Absoluta nos Rios Naturais:** Embora a classe de Alta Suscetibilidade represente cerca de 15,93% da malha dos **Rios**, esse percentual equivale a expressivos **139,03 km** de leitos fluviais correndo sob risco máximo de transbordo urbano, evidenciando o severo adensamento sobre as planícies de inundação naturais (MIRANDA, 2016) 
+* **Pressão Absoluta nos Rios Naturais:** Embora a classe de Alta Suscetibilidade represente cerca de 15,93% da malha dos **Rios**, esse percentual equivale a  **139,03 km** de leitos fluviais correndo sob risco máximo de transbordo urbano, evidenciando o severo adensamento sobre as planícies de inundação naturais (MIRANDA, 2016) 
 * **Gargalos de Engenharia nos Canais:** Os **Canais** artificiais somam **48,85 km** em zonas de Alta Suscetibilidade e **98,06 km** em áreas Médias. Praticamente metade (46,64%) de toda a estrutura de engenharia cinza construída para retificação fluviométrica encontra-se em zonas propensas a colapsos micro e macro-hidráulicos.
-* **Vulnerabilidade Proporcional dos Arroios:** A tipologia **Arroio** revelou-se a mais sufocada da malha urbana, com **85,05%** de sua extensão total classificada entre Média e Alta Suscetibilidade (55,31% e 29,74%, respectivamente), atuando como os primeiros indicadores de saturação hídrica das bacias.
+* **Vulnerabilidade Proporcional dos Arroios:** A tipologia **Arroio** revelou-se a mais sufocada da malha urbana, com **85,05%** de sua extensão total classificada entre Média e Alta Suscetibilidade (55,31% e 29,74%), atuando como os primeiros indicadores de saturação hídrica das bacias.
 
 ---
 
@@ -76,14 +84,15 @@ Essa análise espacial permite o direcionamento assertivo de recursos públicos 
 
 ![Top 10 Bairros Críticos](assets/bairros.png)
 
-## 🔬 Insights Geográficos e Territoriais
+## 🔬 Insights Territoriais do Diagnóstico
 
-* **O Gargalo Crítico de Bangu:** O bairro de Bangu desponta isolado como a região de maior vulnerabilidade imediata, concentrando impressionantes **18,97 km** de cursos d'água em zonas de Alta Suscetibilidade. Esse número reflete a severa pressão hidrológica sobre a bacia local, agravada por fatores antropogênicos e microclimáticos da Zona Oeste.
-* **Vulnerabilidade Concentrada na Macrodrenagem:** Distritos como **Cosme Velho** (3,15 km), **Andaraí** (3,05 km), **Caju** (2,53 km) e **Gericinó** (2,43 km) apresentam uma característica crítica: praticamente toda a sua extensão de rede hidrográfica mapeada corre sob cenários de Média a Alta Suscetibilidade, possuindo margem quase nula de escoamento seguro em eventos climáticos extremos.
-* **A Complexidade de Santa Cruz e Jacarepaguá:** Embora possuam extensões gigantescas classificadas em Baixa Suscetibilidade devido às suas vastas planícies costeiras e bacias (Santa Cruz com 185,36 km e Jacarepaguá com 107,95 km), ambos ainda retêm volumes significativos de rede sob risco direto, exigindo monitoramento contínuo de suas calhas amortecedoras.
+*Vetor de Risco na Zona Oeste (Bangu):* O bairro de Bangu concentra a maior extensão crítica do município, com 18,97 km de drenagem sob alta suscetibilidade. A topografia local de vale, somada ao rápido adensamento urbano, torna a bacia do Rio Sarapuí e seus afluentes a zona mais vulnerável a transbordamentos imediatos.
 
+*Margem Nula de Escoamento (Cosme Velho, Andaraí, Caju e Gericinó):* Embora tenham extensões totais menores, esses distritos apresentam cenários críticos porque quase 100% de suas calhas (com médias entre 2,4 km e 3,1 km) estão espremidas em áreas de média a alta suscetibilidade. Não há margem natural de amortecimento para cheias nessas sub-bacias.
 
-### 🕳️ Análise de Engenharia Urbana: Canais Cobertos vs. Céu Aberto
+*Falso Conforto nas Baixadas (Santa Cruz e Jacarepaguá):* Estes bairros lideram em extensão total de rios (com 185,36 km e 107,95 km respectivamente), concentrando grandes trechos em "Baixa Suscetibilidade" devido ao relevo plano das planícies costeiras. Contudo, por serem zonas de deságue final, esses trechos planos sofrem influência direta de marés e retenção de sedimentos, exigindo preservação rígida das Faixas Marginais de Proteção (FMP).
+
+### Análise de Engenharia Urbana: Canais Cobertos vs. Céu Aberto
 
 Esta análise investiga o impacto do modelo tradicional de engenharia cinza (tamponamento e fechamento de cursos d'água em galerias subterrâneas) frente às manchas de inundação. O objetivo foi quantificar se a ocultação da rede de drenagem mitigou ou concentrou os fatores de risco socioambiental no município.
 
@@ -94,7 +103,7 @@ Esta análise investiga o impacto do modelo tradicional de engenharia cinza (tam
 
 ---
 
-## 📈 Visualização do Impacto da Canalização
+## Visualização do Impacto da Canalização
 
 ![Trechos Cobertos vs Céu Aberto](assets/trechos.png)
 
@@ -102,8 +111,11 @@ Esta análise investiga o impacto do modelo tradicional de engenharia cinza (tam
 
 ## 🔬 Insights de Infraestrutura Urbana
 
-* **Gargalo Subterrâneo Invisível:** Dos 115,58 km de malha de drenagem que foram sepultados e convertidos em galerias subterrâneas artificiais, **69,12% (79,90 km)** operam sob zonas de Média e Alta Suscetibilidade à inundação. Isso aponta que a política histórica de cobrir rios para a passagem de vias não resolveu a dinâmica hidrológica regional e criou pontos críticos de pressão hidráulica invisível sob o asfalto.
-* **Resiliência Natural Espacial:** A rede a céu aberto, embora concentre o maior valor absoluto em quilômetros em risco Alto (234,78 km), mantém a maior parte de sua extensão linear (60,60%) em zonas de Baixa Suscetibilidade. Isso reforça o potencial de aplicar Soluções Baseadas na Natureza (SBN) ao longo dessas calhas abertas para criar zonas de amortecimento de cheias antes que a água atinja o ambiente construído.
+## Dinâmica de Drenagem: Canais Cobertos vs. Calha Aberta
+Relação de Risco em Galerias Subterrâneas: Dos 115,58 km de rede hidrográfica canalizada e subterrânea, 69,12% (79,90 km) estão situados em áreas de média a alta suscetibilidade à inundação. Esse dado evidencia as limitações hidráulicas do sistema de micro e macrodrenagem convencional (galerias fechadas) em absorver picos de vazão em eventos extremos de precipitação urbana.
+
+Capacidade de Amortecimento em Calha Aberta: Embora a rede a céu aberto concentre o maior valor absoluto sob alta suscetibilidade (234,78 km), a maior parte de sua extensão total (60,60%) permanece em zonas de baixa suscetibilidade. Essa configuração territorial indica um cenário favorável para a aplicação de Soluções Baseadas na Natureza (SBN), utilizando as calhas abertas para criar bacias de retenção e faixas de amortecimento antes do estrangulamento da drenagem nas áreas adensadas.
+  
 ## Autor
 * **Vitória B. B. de Carvalho** - Bióloga e Analista Ambiental 
 * [LinkedIn](https://www.linkedin.com/in/vitoria-b-b-de-carvalho/)
