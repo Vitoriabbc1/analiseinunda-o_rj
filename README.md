@@ -47,9 +47,9 @@ A tabela abaixo sintetiza a extensão linear (em quilômetros) e a distribuiçã
 
 ## Diretrizes e Soluções Propostas
 
-Os dados quantitativos robustecem a necessidade de uma transição nos modelos tradicionais de drenagem urbana voltados para a engenharia cinza (canalizações fechadas e concretadas)[cite: 1, 2]. Como direcionamento técnico, propõe-se:
-1. Adoção de **Soluções Baseadas na Natureza (SBN)** para recuperação da capacidade de infiltração natural do solo urbano [1](https://www.scielo.br/j/urbe/a/54jTFvySqRCgzkwZ44bJj6M/?format=html&lang=pt)
-2. Implantação de bacias de amortecimento de cheias e **Parques Lineares Urbanos** integrados [2](https://repositorio.ufc.br/handle/riufc/59019) 
+Os dados quantitativos robustecem a necessidade de uma transição nos modelos tradicionais de drenagem urbana voltados para a engenharia cinza (canalizações fechadas e concretadas). Como direcionamento técnico, proponho:
+1. Adoção de **Soluções Baseadas na Natureza (SBN)** para recuperação da capacidade de infiltração natural do solo urbano [Artigo 1](https://www.scielo.br/j/urbe/a/54jTFvySqRCgzkwZ44bJj6M/?format=html&lang=pt)
+2. Implantação de bacias de amortecimento de cheias e **Parques Lineares Urbanos** integrados [Artigo 2](https://repositorio.ufc.br/handle/riufc/59019) 
 3. Restauração e fiscalização rígida das **Faixas Marginais de Proteção (FMP)** nos trechos identificados sob Alta Suscetibilidade 
 
 ---
