@@ -33,8 +33,7 @@ A tabela abaixo sintetiza a extensão linear (em quilômetros) e a distribuiçã
 
 ## 📈 Visualização dos Dados
 
-![grafico_suscetibilidade_limpo.png)
-*(Substitua ou verifique se o nome do arquivo da imagem do gráfico no seu repositório bate exatamente com este nome para aparecer aqui)*
+!![grafico1](assets/grafico1.jpg)
 
 ---
 
