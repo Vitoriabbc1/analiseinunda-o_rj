@@ -1,0 +1,58 @@
+# Modelagem Espacial de Riscos Hidrológicos e Criticidade da Rede de Drenagem Urbana no Rio de Janeiro
+
+## 📌 Sobre o Projeto
+Este projeto apresenta uma abordagem de inteligência geográfica e análise de dados aplicada à gestão de riscos de desastres hidrológicos no município do Rio de Janeiro. A metodologia consistiu no cruzamento espacial entre a **Rede Hidrográfica Municipal** e a **Carta de Suscetibilidade à Inundação** desenvolvida pelo Serviço Geológico do Brasil (CPRM)[cite: 1, 2]. 
+
+O objetivo principal foi quantificar a vulnerabilidade física da infraestrutura de macrodrenagem urbana, categorizando o nível de exposição ao risco (Alta, Média e Baixa Suscetibilidade) para cada tipologia de curso d'água (Rios, Canais, Arroios, Valas e Valões)[cite: 1, 2].
+
+---
+
+## 🛠️ Tecnologias e Ferramentas Utilizadas
+* **QGIS:** Processamento digital de dados vetoriais, operações de interseção espacial e refinamento da base cartográfica.
+* **Python (Google Colab):** Tratamento, limpeza de dados textuais estruturados e engenharia de recursos (*feature engineering*) com `Pandas`.
+* **Matplotlib & Seaborn:** Geração de gráficos estatísticos avançados e estilização de matrizes de criticidade.
+
+---
+
+## 📊 Matriz de Criticidade (Resultados Quantitativos)
+
+A tabela abaixo sintetiza a extensão linear (em quilômetros) e a distribuição percentual de cada tipologia de drenagem frente às classes de suscetibilidade mapeadas[cite: 1, 2]:
+
+| Tipologia do Curso d'Água | Alta Suscetibilidade (km) | Alta (%) | Média Suscetibilidade (km) | Média (%) | Baixa Suscetibilidade (km) | Baixa (%) | Extensão Total (km) |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **ARROIO** | 5,43 | 29,74% | 10,10 | 55,31% | 2,73 | 14,95% | **18,26** |
+| **CANAL** | 48,85 | 15,51% | 98,06 | 31,13% | 168,09 | 53,36% | **315,00** |
+| **RIO** | 139,03 | 15,93% | 272,67 | 31,25% | 460,93 | 52,82% | **872,63** |
+| **VALA** | 9,04 | 18,16% | 5,91 | 11,87% | 34,83 | 69,97% | **49,78** |
+| **VALÃO** | 0,00 | 0,00% | 0,99 | 6,61% | 13,98 | 93,39% | **14,97** |
+
+---
+
+## 📈 Visualização dos Dados
+
+![Extensão da Rede de Drenagem por Suscetibilidade](grafico_suscetibilidade_limpo.png)
+*(Substitua ou verifique se o nome do arquivo da imagem do gráfico no seu repositório bate exatamente com este nome para aparecer aqui)*
+
+---
+
+## 🔬 Principais Insights Técnicos
+
+* **Pressão Absoluta nos Rios Naturais:** Embora a classe de Alta Suscetibilidade represente cerca de 15,93% da malha dos **Rios**, esse percentual equivale a expressivos **139,03 km** de leitos fluviais correndo sob risco máximo de transbordo urbano, evidenciando o severo adensamento sobre as planícies de inundação naturais[cite: 1, 2].
+* **Gargalos de Engenharia nos Canais:** Os **Canais** artificiais somam **48,85 km** em zonas de Alta Suscetibilidade e **98,06 km** em áreas Médias[cite: 1, 2]. Praticamente metade (46,64%) de toda a estrutura de engenharia cinza construída para retificação fluviométrica encontra-se em zonas propensas a colapsos micro e macro-hidráulicos[cite: 1, 2].
+* **Vulnerabilidade Proporcional dos Arroios:** A tipologia **Arroio** revelou-se a mais sufocada da malha urbana, com **85,05%** de sua extensão total classificada entre Média e Alta Suscetibilidade (55,31% e 29,74%, respectivamente), atuando como os primeiros indicadores de saturação hídrica das bacias[cite: 1, 2].
+
+---
+
+## 🌿 Diretrizes e Soluções Propostas
+
+Os dados quantitativos robustecem a necessidade de uma transição nos modelos tradicionais de drenagem urbana voltados para a engenharia cinza (canalizações fechadas e concretadas)[cite: 1, 2]. Como direcionamento técnico, propõe-se:
+1. Adoção de **Soluções Baseadas na Natureza (SBN)** para recuperação da capacidade de infiltração natural do solo urbano[cite: 1, 2].
+2. Implantação de bacias de amortecimento de cheias e **Parques Lineares Urbanos** integrados[cite: 1, 2].
+3. Restauração e fiscalização rígida das **Faixas Marginais de Proteção (FMP)** nos trechos identificados sob Alta Suscetibilidade[cite: 1, 2].
+
+---
+
+## 👤 Autor
+* **Vitória B. B. de Carvalho** - Bióloga e Analista Ambiental[cite: 1, 2]
+* [Seu LinkedIn](https://www.linkedin.com/in/seu-perfil)
+* [Seu E-mail](mailto:seu-email@exemplo.com)
