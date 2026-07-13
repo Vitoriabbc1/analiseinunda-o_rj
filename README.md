@@ -1,5 +1,5 @@
 ![capa analise](assets/capa.jpg)
-# Modelagem Espacial de Riscos Hidrológicos e Criticidade da Rede de Drenagem Urbana no Rio de Janeiro
+
 
 ## Sobre o Projeto
 Este projeto apresenta uma abordagem de inteligência geográfica e análise de dados aplicada à gestão de riscos de desastres hidrológicos no município do Rio de Janeiro. A metodologia consistiu no cruzamento espacial entre a camada shapefile da **Rede Hidrográfica Municipal** e a camada de **Suscetibilidade a Deslizamentos - (Fundação Geo-Rio) ** disponibilizada para visualização portal SMAC MAPAS da Prefeitura do Rio de Janeiro.  
