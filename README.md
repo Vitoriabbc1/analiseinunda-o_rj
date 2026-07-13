@@ -33,7 +33,7 @@ A tabela abaixo sintetiza a extensão linear (em quilômetros) e a distribuiçã
 
 ## 📈 Visualização dos Dados
 
-!![grafico1](assets/grafico1.jpg)
+![grafico1](assets/grafico1.png)
 
 ---
 
