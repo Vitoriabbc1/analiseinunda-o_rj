@@ -17,7 +17,7 @@ O objetivo principal foi quantificar a vulnerabilidade física da infraestrutura
 
 ---
 
-## 📊 Matriz de Criticidade (Resultados Quantitativos)
+## Matriz de Criticidade (Resultados Quantitativos)
 
 A tabela abaixo sintetiza a extensão linear (em quilômetros) e a distribuição percentual de cada tipologia de drenagem frente às classes de suscetibilidade mapeadas[cite: 1, 2]:
 
@@ -31,13 +31,13 @@ A tabela abaixo sintetiza a extensão linear (em quilômetros) e a distribuiçã
 
 ---
 
-## 📈 Visualização dos Dados
+## Visualização dos Dados
 
 ![grafico1](assets/grafico1.png)
 
 ---
 
-## 🔬 Principais Insights Técnicos
+## Principais Insights Técnicos
 
 * **Pressão Absoluta nos Rios Naturais:** Embora a classe de Alta Suscetibilidade represente cerca de 15,93% da malha dos **Rios**, esse percentual equivale a expressivos **139,03 km** de leitos fluviais correndo sob risco máximo de transbordo urbano, evidenciando o severo adensamento sobre as planícies de inundação naturais[cite: 1, 2].
 * **Gargalos de Engenharia nos Canais:** Os **Canais** artificiais somam **48,85 km** em zonas de Alta Suscetibilidade e **98,06 km** em áreas Médias[cite: 1, 2]. Praticamente metade (46,64%) de toda a estrutura de engenharia cinza construída para retificação fluviométrica encontra-se em zonas propensas a colapsos micro e macro-hidráulicos[cite: 1, 2].
@@ -48,13 +48,13 @@ A tabela abaixo sintetiza a extensão linear (em quilômetros) e a distribuiçã
 ## 🌿 Diretrizes e Soluções Propostas
 
 Os dados quantitativos robustecem a necessidade de uma transição nos modelos tradicionais de drenagem urbana voltados para a engenharia cinza (canalizações fechadas e concretadas)[cite: 1, 2]. Como direcionamento técnico, propõe-se:
-1. Adoção de **Soluções Baseadas na Natureza (SBN)** para recuperação da capacidade de infiltração natural do solo urbano[cite: 1, 2].
-2. Implantação de bacias de amortecimento de cheias e **Parques Lineares Urbanos** integrados[cite: 1, 2].
-3. Restauração e fiscalização rígida das **Faixas Marginais de Proteção (FMP)** nos trechos identificados sob Alta Suscetibilidade[cite: 1, 2].
+1. Adoção de **Soluções Baseadas na Natureza (SBN)** para recuperação da capacidade de infiltração natural do solo urbano [1](https://www.scielo.br/j/urbe/a/54jTFvySqRCgzkwZ44bJj6M/?format=html&lang=pt)
+2. Implantação de bacias de amortecimento de cheias e **Parques Lineares Urbanos** integrados [2](https://repositorio.ufc.br/handle/riufc/59019) 
+3. Restauração e fiscalização rígida das **Faixas Marginais de Proteção (FMP)** nos trechos identificados sob Alta Suscetibilidade 
 
 ---
 
-## 👤 Autor
-* **Vitória B. B. de Carvalho** - Bióloga e Analista Ambiental[cite: 1, 2]
-* [Seu LinkedIn](https://www.linkedin.com/in/seu-perfil)
-* [Seu E-mail](mailto:seu-email@exemplo.com)
+## Autor
+* **Vitória B. B. de Carvalho** - Bióloga e Analista Ambiental 
+* [LinkedIn](https://www.linkedin.com/in/vitoria-b-b-de-carvalho/)
+* [E-mail](mailto:vibbarcellos@gmail.com)
