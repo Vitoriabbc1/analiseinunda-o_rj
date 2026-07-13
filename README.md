@@ -56,15 +56,30 @@ Os dados quantitativos robustecem a necessidade de uma transição nos modelos t
 ### 🏙️ Análise de Vulnerabilidade Local (Top 10 Bairros Críticos)
 
 Ao cruzar a malha hidrográfica fragmentada com as regiões administrativas, o modelo isolou os 10 bairros do município do Rio de Janeiro que concentram a maior extensão linear de drenagem sob **Alta Suscetibilidade** à inundação. 
-
+| Bairro | Alta Suscetibilidade (km) | Média Suscetibilidade (km) | Baixa Suscetibilidade (km) | Extensão Total (km) |
+| :--- | :---: | :---: | :---: | :---: |
+| **Bangu** | 18,97 | 0,87 | 27,08 | **46,92** |
+| **Alto da Boa Vista** | 3,48 | 0,00 | 44,58 | **48,06** |
+| **Barra da Tijuca** | 3,43 | 9,30 | 0,00 | **12,73** |
+| **Jacarepaguá** | 3,20 | 15,62 | 107,95 | **126,77** |
+| **Cosme Velho** | 3,15 | 0,30 | 0,00 | **3,45** |
+| **Andaraí** | 3,05 | 0,09 | 0,00 | **3,14** |
+| **Maré** | 2,90 | 1,38 | 0,00 | **4,28** |
+| **Caju** | 2,53 | 0,00 | 0,00 | **2,53** |
+| **Santa Cruz** | 2,44 | 3,87 | 185,36 | **191,67** |
+| **Gericinó** | 2,43 | 0,00 | 0,00 | **2,43** |
 Essa análise espacial permite o direcionamento assertivo de recursos públicos e priorização de obras de manejo de águas pluviais.
-
----
 
 ## Visualização dos Dados por Bairro
 
 ![Top 10 Bairros Críticos](assets/bairros.png)
 
+## 🔬 Insights Geográficos e Territoriais
+
+* **O Gargalo Crítico de Bangu:** O bairro de Bangu desponta isolado como a região de maior vulnerabilidade imediata, concentrando impressionantes **18,97 km** de cursos d'água em zonas de Alta Suscetibilidade. Esse número reflete a severa pressão hidrológica sobre a bacia local, agravada por fatores antropogênicos e microclimáticos da Zona Oeste.
+* **Vulnerabilidade Concentrada na Macrodrenagem:** Distritos como **Cosme Velho** (3,15 km), **Andaraí** (3,05 km), **Caju** (2,53 km) e **Gericinó** (2,43 km) apresentam uma característica crítica: praticamente toda a sua extensão de rede hidrográfica mapeada corre sob cenários de Média a Alta Suscetibilidade, possuindo margem quase nula de escoamento seguro em eventos climáticos extremos.
+* **A Complexidade de Santa Cruz e Jacarepaguá:** Embora possuam extensões gigantescas classificadas em Baixa Suscetibilidade devido às suas vastas planícies costeiras e bacias (Santa Cruz com 185,36 km e Jacarepaguá com 107,95 km), ambos ainda retêm volumes significativos de rede sob risco direto, exigindo monitoramento contínuo de suas calhas amortecedoras.
+  
 ## Autor
 * **Vitória B. B. de Carvalho** - Bióloga e Analista Ambiental 
 * [LinkedIn](https://www.linkedin.com/in/vitoria-b-b-de-carvalho/)
