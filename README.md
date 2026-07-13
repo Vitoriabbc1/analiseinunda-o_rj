@@ -1,4 +1,4 @@
-!(assets/capa.png])
+!(assets/capa.png)
 # Modelagem Espacial de Riscos Hidrológicos e Criticidade da Rede de Drenagem Urbana no Rio de Janeiro
 
 ## Sobre o Projeto
