@@ -68,6 +68,8 @@ Ao cruzar a malha hidrográfica fragmentada com as regiões administrativas, o m
 | **Caju** | 2,53 | 0,00 | 0,00 | **2,53** |
 | **Santa Cruz** | 2,44 | 3,87 | 185,36 | **191,67** |
 | **Gericinó** | 2,43 | 0,00 | 0,00 | **2,43** |
+
+
 Essa análise espacial permite o direcionamento assertivo de recursos públicos e priorização de obras de manejo de águas pluviais.
 
 ## Visualização dos Dados por Bairro
