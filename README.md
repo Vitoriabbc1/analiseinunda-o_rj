@@ -53,6 +53,17 @@ Os dados quantitativos robustecem a necessidade de uma transição nos modelos t
 3. Restauração e fiscalização rígida das **Faixas Marginais de Proteção (FMP)** nos trechos identificados sob Alta Suscetibilidade 
 
 ---
+### 🏙️ Análise de Vulnerabilidade Local (Top 10 Bairros Críticos)
+
+Ao cruzar a malha hidrográfica fragmentada com as regiões administrativas, o modelo isolou os 10 bairros do município do Rio de Janeiro que concentram a maior extensão linear de drenagem sob **Alta Suscetibilidade** à inundação. 
+
+Essa análise espacial permite o direcionamento assertivo de recursos públicos e priorização de obras de manejo de águas pluviais.
+
+---
+
+## Visualização dos Dados por Bairro
+
+![Top 10 Bairros Críticos](assets/bairros.png)
 
 ## Autor
 * **Vitória B. B. de Carvalho** - Bióloga e Analista Ambiental 
