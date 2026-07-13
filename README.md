@@ -10,7 +10,7 @@ O objetivo principal foi quantificar a vulnerabilidade física da infraestrutura
 
 ---
 
-## 🛠️ Tecnologias e Ferramentas Utilizadas
+## Tecnologias e Ferramentas Utilizadas
 * **QGIS:** Processamento digital de dados vetoriais, operações de interseção espacial e refinamento da base cartográfica.
 * **Python (Google Colab):** Tratamento, limpeza de dados textuais estruturados e engenharia de recursos (*feature engineering*) com `Pandas`.
 * **Matplotlib & Seaborn:** Geração de gráficos estatísticos avançados e estilização de matrizes de criticidade.
@@ -39,13 +39,13 @@ A tabela abaixo sintetiza a extensão linear (em quilômetros) e a distribuiçã
 
 ## Principais Insights Técnicos
 
-* **Pressão Absoluta nos Rios Naturais:** Embora a classe de Alta Suscetibilidade represente cerca de 15,93% da malha dos **Rios**, esse percentual equivale a expressivos **139,03 km** de leitos fluviais correndo sob risco máximo de transbordo urbano, evidenciando o severo adensamento sobre as planícies de inundação naturais[cite: 1, 2].
-* **Gargalos de Engenharia nos Canais:** Os **Canais** artificiais somam **48,85 km** em zonas de Alta Suscetibilidade e **98,06 km** em áreas Médias[cite: 1, 2]. Praticamente metade (46,64%) de toda a estrutura de engenharia cinza construída para retificação fluviométrica encontra-se em zonas propensas a colapsos micro e macro-hidráulicos[cite: 1, 2].
-* **Vulnerabilidade Proporcional dos Arroios:** A tipologia **Arroio** revelou-se a mais sufocada da malha urbana, com **85,05%** de sua extensão total classificada entre Média e Alta Suscetibilidade (55,31% e 29,74%, respectivamente), atuando como os primeiros indicadores de saturação hídrica das bacias[cite: 1, 2].
+* **Pressão Absoluta nos Rios Naturais:** Embora a classe de Alta Suscetibilidade represente cerca de 15,93% da malha dos **Rios**, esse percentual equivale a expressivos **139,03 km** de leitos fluviais correndo sob risco máximo de transbordo urbano, evidenciando o severo adensamento sobre as planícies de inundação naturais (MIRANDA, 2016) 
+* **Gargalos de Engenharia nos Canais:** Os **Canais** artificiais somam **48,85 km** em zonas de Alta Suscetibilidade e **98,06 km** em áreas Médias. Praticamente metade (46,64%) de toda a estrutura de engenharia cinza construída para retificação fluviométrica encontra-se em zonas propensas a colapsos micro e macro-hidráulicos.
+* **Vulnerabilidade Proporcional dos Arroios:** A tipologia **Arroio** revelou-se a mais sufocada da malha urbana, com **85,05%** de sua extensão total classificada entre Média e Alta Suscetibilidade (55,31% e 29,74%, respectivamente), atuando como os primeiros indicadores de saturação hídrica das bacias.
 
 ---
 
-## 🌿 Diretrizes e Soluções Propostas
+## Diretrizes e Soluções Propostas
 
 Os dados quantitativos robustecem a necessidade de uma transição nos modelos tradicionais de drenagem urbana voltados para a engenharia cinza (canalizações fechadas e concretadas)[cite: 1, 2]. Como direcionamento técnico, propõe-se:
 1. Adoção de **Soluções Baseadas na Natureza (SBN)** para recuperação da capacidade de infiltração natural do solo urbano [1](https://www.scielo.br/j/urbe/a/54jTFvySqRCgzkwZ44bJj6M/?format=html&lang=pt)
