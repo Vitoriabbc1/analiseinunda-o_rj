@@ -2,7 +2,7 @@
 
 
 ## Sobre o Projeto
-Este projeto apresenta uma abordagem de inteligência geográfica e análise de dados aplicada à gestão de riscos de desastres hidrológicos no município do Rio de Janeiro. A metodologia consistiu no cruzamento espacial entre a camada shapefile da **Rede Hidrográfica Municipal** e a camada de *Suscetibilidade a Deslizamentos - (Fundação Geo-Rio)* disponibilizada para visualização portal SMAC MAPAS da Prefeitura do Rio de Janeiro.  
+Este projeto apresenta uma abordagem de inteligência geográfica e análise de dados aplicada à gestão de riscos de desastres hidrológicos no município do Rio de Janeiro. A metodologia consistiu no cruzamento espacial entre a camada shapefile da **Rede Hidrográfica Municipal** e a camada de **Suscetibilidade a Deslizamentos - (Fundação Geo-Rio)** disponibilizada para visualização portal SMAC MAPAS da Prefeitura do Rio de Janeiro.  
 
 O objetivo principal foi quantificar a vulnerabilidade física da infraestrutura de macrodrenagem urbana, categorizando o nível de exposição ao risco (Alta, Média e Baixa Suscetibilidade) para cada tipologia de curso d'água (Rios, Canais, Arroios, Valas e Valões).
 
